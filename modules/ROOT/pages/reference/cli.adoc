@@ -6,6 +6,8 @@ Mona Bärenfänger <mona@lightcurve.io>
 
 :url_sdk_references_config: master@lisk-sdk::references/config.adoc
 
+include::partial$snap-footnote.adoc[]
+
 [[clo]]
 == Commands
 
@@ -299,10 +301,10 @@ COMMANDS
 [[structure]]
 == Config file structure
 
-The configuration for Lisk Core is stored in `~/.lisk/lisk-core/config`.
+The configuration for Lisk Core is stored in `~/.lisk/lisk-core/config` footnoteref:[snap_footnote].
 Each network uses a separate configuration.
 
-.~/.lisk/lisk-core/config/devnet/config.json
+.~/.lisk/lisk-core/config/devnet/config.json footnoteref:[snap_footnote]
 [source,json]
 ----
 {

@@ -1,0 +1,1 @@
+footnoteref:[snap_footnote,Snap versions of Lisk Core store their everything in `~/snap/lisk-core/current/.lisk/lisk-core` instead of `~/.lisk/lisk-core`]
