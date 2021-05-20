@@ -271,7 +271,7 @@ NOTE: To view the current height of the Lisk Testnet, use the network switcher o
 `lisk-migrator` can be started any time before the announced snapshot height.
 ====
 
-If you have added `lisk-migrator` to the PATH as described in section <<setting-up-the-lisk-migrator>> you can start the migration script by running the following command in the terminal:
+If you have added `lisk-migrator` to the PATH as described in section <<setting-up-the-lisk-migrator>> you can start the migration script by running the following include::partial$snap-footnote.adoc[] command in the terminal:
 
 [tabs]
 ====
@@ -280,7 +280,7 @@ Mainnet::
 --
 [source,bash]
 ----
-lisk-migrator --snapshot-height ${snapshotHeight} --output ~/.lisk/lisk-core/config/mainnet/genesis_block.json --lisk-core-path ~/lisk-main include::partial$snap-footnote.adoc[]
+lisk-migrator --snapshot-height ${snapshotHeight} --output ~/.lisk/lisk-core/config/mainnet/genesis_block.json --lisk-core-path ~/lisk-main
 ----
 --
 Testnet::
