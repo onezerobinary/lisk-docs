@@ -30,7 +30,7 @@ Install Lisk Core as a snap:
 
 [source,bash]
 ----
-snap install lisk-core 
+snap install lisk-core
 ----
 
 == Start

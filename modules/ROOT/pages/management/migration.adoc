@@ -280,7 +280,7 @@ Mainnet::
 --
 [source,bash]
 ----
-lisk-migrator --snapshot-height ${snapshotHeight} --output ~/.lisk/lisk-core/config/mainnet/genesis_block.json --lisk-core-path ~/lisk-main
+lisk-migrator --snapshot-height ${snapshotHeight} --output ~/.lisk/lisk-core/config/mainnet/genesis_block.json --lisk-core-path ~/lisk-main include::partial$snap-footnote.adoc[]
 ----
 --
 Testnet::
