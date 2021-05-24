@@ -94,7 +94,7 @@ The consensus votes are not sent explicitly, but are implied by the `maxHeightPr
 For this property, delegates are supposed to provide the largest height of any block they previously forged and thereby disclose if they previously forged on a different chain.
 
 The [#index-fork_choice_rule-1]#*fork choice rule*# defines to which chain a delegate is supposed to add a block in case there are multiple chains.
-In the Lisk-BFT protocol delegates choose the chain where the block at the tip of the chain has the largest `maxHeightPrevoted` value (and largest `height` value in case of a tie).
+In the Lisk-BFT protocol delegates choose the chain where the block at the top of the chain has the largest `maxHeightPrevoted` value (and largest `height` value in case of a tie).
 The `maxHeightPrevoted` property of a block has to be equal to the largest height of an [#index-ancestor_block-1]#*ancestor block*# with at least 68 prevotes (an ancestor block is a predecessor block in the chain).
 
 
